@@ -1,0 +1,21 @@
+# $Id: README 5396 2007-07-09 18:26:52Z lanctot $
+
+This is sample AI code for ORTS
+
+build with:
+
+  make sampleai
+
+test with:
+
+  bin/orts -marines -n_marines 50 -nplayers 2 -sdelay 8
+
+  bin/sampleai -usegfx   (in another terminal window)
+
+  bin/sampleai           (in another terminal window)
+
+This creates a map with many marines shooting at each other
+and running around randomly. The first command starts a sample AI
+using the 3D OpenGL client for a display; use the '-disp' option 
+instead of '-usegfx' for the 2D client. 
+
